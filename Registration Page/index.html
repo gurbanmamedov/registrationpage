@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Registration Page | Homework</title>
+    <style>
+       </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration</h2>
+        <form>
+            <div class="form-group">
+            <label for="username">Username</label>
+            
+            <input type="text"id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="gender">Gender</label> <br>
+                    <label>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        Female
+                    </label>
+                </div>
+            <div class="form-group">
+                <label for="date">Your Birthday</label>
+                <input type="date" id="birthday" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="az">Azerbaijan</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="ru">Russia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Example john@gmail.com" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" required>
+                    <strong>
+                        I confirm that I have read and agree to the Terms and Conditions and the privacy statements.</strong>
+                </label>
+            </div>
+
+            <div> <br>
+                <button type="submit" class="submit-btn" >Register</button>
+             </div>
+             <div>
+               <p><strong>Already have an account?</strong><br>
+                <a href="page2.html">Log In</a>
+               </p> 
+             </div>
+            
+        </form>
+    
+        
+</body>
+</html>
